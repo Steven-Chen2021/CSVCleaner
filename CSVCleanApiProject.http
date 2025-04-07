@@ -1,0 +1,6 @@
+@CSVCleanApiProject_HostAddress = http://localhost:5171
+
+GET {{CSVCleanApiProject_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
