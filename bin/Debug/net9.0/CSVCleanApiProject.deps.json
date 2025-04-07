@@ -9,7 +9,8 @@
       "CSVCleanApiProject/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": "9.0.3",
-          "Swashbuckle.AspNetCore": "8.1.0"
+          "Swashbuckle.AspNetCore": "8.1.0",
+          "Swashbuckle.AspNetCore.Annotations": "8.1.0"
         },
         "runtime": {
           "CSVCleanApiProject.dll": {}
@@ -41,6 +42,17 @@
           "Swashbuckle.AspNetCore.Swagger": "8.1.0",
           "Swashbuckle.AspNetCore.SwaggerGen": "8.1.0",
           "Swashbuckle.AspNetCore.SwaggerUI": "8.1.0"
+        }
+      },
+      "Swashbuckle.AspNetCore.Annotations/8.1.0": {
+        "dependencies": {
+          "Swashbuckle.AspNetCore.SwaggerGen": "8.1.0"
+        },
+        "runtime": {
+          "lib/net9.0/Swashbuckle.AspNetCore.Annotations.dll": {
+            "assemblyVersion": "8.1.0.0",
+            "fileVersion": "8.1.0.1229"
+          }
         }
       },
       "Swashbuckle.AspNetCore.Swagger/8.1.0": {
@@ -108,6 +120,13 @@
       "sha512": "sha512-8NJwXskWNBhX4IntitP1VP68hzhQ9Sex4mR9ZbqCuuUsaWlfrMA+yDIYDFsbHlB2NQ6Gt27AT15BWo9jxHj1tg==",
       "path": "swashbuckle.aspnetcore/8.1.0",
       "hashPath": "swashbuckle.aspnetcore.8.1.0.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.Annotations/8.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8k3FzHKtyUaD6cA3H6i+SOq4ln1ne6Sv5Lr0KiXAnF7JALh2DSNCF9GZy4DeRHDEXkJy+sStVTqvIRYNhMBE3g==",
+      "path": "swashbuckle.aspnetcore.annotations/8.1.0",
+      "hashPath": "swashbuckle.aspnetcore.annotations.8.1.0.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore.Swagger/8.1.0": {
       "type": "package",

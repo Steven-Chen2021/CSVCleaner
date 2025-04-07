@@ -34,3 +34,5 @@ C:\Project\Workshop\CSVCleanApiProject\obj\Debug\net9.0\refint\CSVCleanApiProjec
 C:\Project\Workshop\CSVCleanApiProject\obj\Debug\net9.0\CSVCleanApiProject.pdb
 C:\Project\Workshop\CSVCleanApiProject\obj\Debug\net9.0\CSVCleanApiProject.genruntimeconfig.cache
 C:\Project\Workshop\CSVCleanApiProject\obj\Debug\net9.0\ref\CSVCleanApiProject.dll
+C:\Project\Workshop\CSVCleanApiProject\obj\Debug\net9.0\CSVCleanApiProject.sourcelink.json
+C:\Project\Workshop\CSVCleanApiProject\bin\Debug\net9.0\Swashbuckle.AspNetCore.Annotations.dll
