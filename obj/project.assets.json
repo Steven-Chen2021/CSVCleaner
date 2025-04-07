@@ -499,19 +499,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\A1231\\.nuget\\packages\\": {}
+    "C:\\Users\\mewme\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Project\\Workshop\\CSVCleanApiProject\\CSVCleanApiProject.csproj",
+      "projectUniqueName": "C:\\Project\\Workshop\\CleanCSV\\CSVCleaner\\CSVCleanApiProject.csproj",
       "projectName": "CSVCleanApiProject",
-      "projectPath": "C:\\Project\\Workshop\\CSVCleanApiProject\\CSVCleanApiProject.csproj",
-      "packagesPath": "C:\\Users\\A1231\\.nuget\\packages\\",
-      "outputPath": "C:\\Project\\Workshop\\CSVCleanApiProject\\obj\\",
+      "projectPath": "C:\\Project\\Workshop\\CleanCSV\\CSVCleaner\\CSVCleanApiProject.csproj",
+      "packagesPath": "C:\\Users\\mewme\\.nuget\\packages\\",
+      "outputPath": "C:\\Project\\Workshop\\CleanCSV\\CSVCleaner\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\A1231\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mewme\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -535,9 +535,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
+        "auditMode": "all"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net9.0": {
@@ -575,7 +575,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
