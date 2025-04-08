@@ -26,7 +26,7 @@ public class CsvController : ControllerBase
 
         try
         {
-            using var stream = file.OpenReadStream();
+            await using var stream = file.OpenReadStream();
             using var reader = new StreamReader(stream);
             using var csvReader = new CsvReader(reader, new CsvConfiguration(CultureInfo.InvariantCulture)
             {
@@ -34,7 +34,7 @@ public class CsvController : ControllerBase
                 IgnoreBlankLines = true
             });
 
-            var records = csvReader.GetRecords<dynamic>().ToList(); // 讀取 CSV 資料為動態物件
+            var records = await Task.Run(() => csvReader.GetRecords<dynamic>().ToList()); // 讀取 CSV 資料為動態物件
             var cleanedRecords = new List<dynamic>();
             int blankRowsRemoved = 0, invalidEmailsCorrected = 0, extraWhitespaceTrimmed = 0;
             int inconsistentCasingFixed = 0, duplicateEntriesRemoved = 0, dateFormatsStandardized = 0, currencyFormatsStandardized = 0;
@@ -113,7 +113,7 @@ public class CsvController : ControllerBase
             using var csvWriter = new CsvWriter(writer, new CsvConfiguration(CultureInfo.InvariantCulture));
 
             csvWriter.WriteRecords(cleanedRecords);
-            writer.Flush();
+            await writer.FlushAsync();
             outputStream.Position = 0;
 
             // 模擬生成下載 URL

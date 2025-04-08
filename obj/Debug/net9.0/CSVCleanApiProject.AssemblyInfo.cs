@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSVCleanApiProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80fae178db5720c8a14734e09b513a6cc5980e24")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69f340648cf4a5af2bf15b0bbb0fbb0327670de4")]
 [assembly: System.Reflection.AssemblyProductAttribute("CSVCleanApiProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSVCleanApiProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
